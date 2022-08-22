@@ -1,0 +1,67 @@
+:root {
+    --color-black: #111111;
+    --color-palette-0: #0E1C5B;
+    --color-palette-1: #532D49;
+    --color-palette-2: #FAB20B;
+    --color-palette-3: #9CEB38;
+    --color-palette-4: #71E3A0;
+
+    /*--color-palette-0: #101010;
+    --color-palette-1: #2F2F2F;
+    --color-palette-2: #7F7F7F;
+    --color-palette-3: #B0B0B0;
+    --color-palette-4: #FFFFFF;*/
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    /*background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    /*background-image: linear-gradient(#E7E7E7, #CECECE);*/
+    /*background-image: linear-gradient(#ffffff, #000000);*/
+    color: #111111;
+    background: none;
+}
+
+.textarea {
+    mix-blend-mode: difference;
+    color: var(--color-black);
+    /*mix-blend-mode: exclusion;*/
+    /*mix-blend-mode: screen;*/
+}
+
+.textarea h1 {
+    font-family: 'PT Sans', sans-serif;
+    color: var(--color-black);
+    mix-blend-mode: difference;
+    font-weight: bold;
+}
+
+.textarea p {
+    font-family: 'PT Sans', sans-serif;
+    color: var(--color-black);
+    mix-blend-mode: inherit;
+}
+
+.circle-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    /*background-color: red;*/
+    mix-blend-mode: difference;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle-button:hover {
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    background-color: pink;
+}
+
+.bg-red {
+    background-color: red;
+}
