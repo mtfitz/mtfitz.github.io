@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Michael Fitzgerald</title>
+    <title>About Me on Michael Fitzgerald</title>
     <link>https://www.mtfitz.net/</link>
-    <description>Recent content on Michael Fitzgerald</description>
+    <description>Recent content in About Me on Michael Fitzgerald</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2023 Michael Fitzgerald. Powered by Hugo.</copyright><atom:link href="https://www.mtfitz.net/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2023 Michael Fitzgerald.</copyright>
+    <lastBuildDate>Tue, 15 Aug 2023 18:08:26 -0400</lastBuildDate><atom:link href="https://www.mtfitz.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://www.mtfitz.net/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.mtfitz.net/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>get in touch</title>
+      <title>Contact</title>
       <link>https://www.mtfitz.net/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Sep 2023 21:27:20 -0400</pubDate>
       
       <guid>https://www.mtfitz.net/contact/</guid>
       <description> Send </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://www.mtfitz.net/projects/</link>
+      <pubDate>Mon, 25 Sep 2023 21:27:20 -0400</pubDate>
+      
+      <guid>https://www.mtfitz.net/projects/</guid>
+      <description>RTI Avionics Demo In the summer of 2023, I interned at Real-Time Innovations (RTI), an IoT middleware company. There, I designed and implemented a demo suite to highlight use cases of RTI&amp;rsquo;s software in avionics. This was a fun experience: not only did I refine my development skills, from the web to the low-level, but at the program&amp;rsquo;s conclusion I pitched my project to sales engineers. Through this opportunity, I&amp;rsquo;ve learned some important lessons about computing and how the public perceives a software company.</description>
     </item>
     
   </channel>

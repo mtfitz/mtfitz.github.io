@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2023-08-15T18:08:26-04:00
-draft: true
+type: "page"
 ---
 
 {{< figure src="/avatar.png" alt="Michael Fitzgerald" width="200" >}}
