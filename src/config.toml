@@ -1,0 +1,47 @@
+baseURL = "https://www.mtfitz.net"
+languageCode = "en-us"
+title = "Michael Fitzgerald"
+copyright = "© 2023 Michael Fitzgerald."
+theme = "risotto"
+pygmentsUseClasses=true
+
+[params]
+  author = "Michael Fitzgerald"
+  description = "Software Developer"
+  keywords = ""
+  useAvatar = true
+  microBlogSection = "posts"
+  displayMicroBlog = false
+  displayRecent = false
+  displayHomeContent = false
+  recentMax = 4
+  #mail = "mchlfitzgerald52@gmail.com"
+  #phone = "8888888888"
+  formspreeID = "xqkvpnrn"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class=\"fas fa-home fa-sm\"></i>"
+    url = "/"
+    weight = -9 
+  [[menu.main]]
+    name = "Projects"
+    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
+    url = "/projects"
+    weight = -7 
+  [[menu.main]]
+    name = "GitHub"
+    pre = "<i class=\"fab fa-github fa-ms\"></i>"
+    url = "https://github.com/mtfitz"
+    weight = -6 
+  [[menu.main]]
+    name = "LinkedIn"
+    pre = "<i class=\"fab fa-linkedin fa-ms\"></i>"
+    url = "https://www.linkedin.com/in/michael-fitzgerald-a9955a205/"
+    weight = -6 
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class=\"far fa-envelope\"></i>"
+    url = "/contact"
+    weight = -1 
